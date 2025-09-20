@@ -27,7 +27,7 @@ export default function RootLayout({ children }) {
         <header className="shadow-sm">
           <Navbar></Navbar>
         </header>
-        {children}
+        <main>{children}</main>
         <footer>
           <Footer />
         </footer>

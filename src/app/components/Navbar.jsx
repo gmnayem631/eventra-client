@@ -35,14 +35,16 @@ export default function Navbar() {
               <a>All Events</a>
             </li>
             <li>
-              <a>Services</a>
+              <Link href={"/services"}>Services</Link>
             </li>
             <li>
               <Link href={"/about"}>About</Link>
             </li>
           </ul>
         </div>
-        <a className="font-semibold text-xl">Eventra</a>
+        <Link href={"/"} className="font-semibold text-xl">
+          Eventra
+        </Link>
       </div>
 
       {/* Center Section */}
@@ -55,7 +57,7 @@ export default function Navbar() {
             <a>All Events</a>
           </li>
           <li>
-            <a>Services</a>
+            <Link href={"/services"}>Services</Link>
           </li>
           <li>
             <Link href={"/about"}>About</Link>
