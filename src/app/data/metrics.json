@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "value": "320",
+    "label": "Featured Events",
+    "icon": "FaCoffee"
+  },
+  {
+    "id": 2,
+    "value": "156",
+    "label": "Loyal Customers",
+    "icon": "FaUser"
+  },
+  {
+    "id": 3,
+    "value": "594",
+    "label": "Good Comments",
+    "icon": "FaLayerGroup"
+  },
+  {
+    "id": 4,
+    "value": "167",
+    "label": "Trophies Won",
+    "icon": "FaTrophy"
+  }
+]
