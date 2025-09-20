@@ -1,8 +1,8 @@
 import React from "react";
 import { CiFaceSmile, CiGift, CiClock2, CiStar } from "react-icons/ci";
 import { IoGlassesOutline, IoDiamond } from "react-icons/io5";
-import OurServices from "../components/OurServices";
-import FeaturedServices from "../components/FeaturedServices";
+import OurServices from "../../components/OurServices";
+import FeaturedServices from "../../components/FeaturedServices";
 
 const Services = () => {
   return (

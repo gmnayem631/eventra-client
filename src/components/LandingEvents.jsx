@@ -1,6 +1,7 @@
 import React from "react";
 import eventsData from "../data/events.json";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function LandingEvents() {
   // Sort events by date descending and take the latest 6
@@ -43,9 +44,11 @@ export default function LandingEvents() {
             </div>
 
             <div className="p-3">
-              <button className="btn btn-outline w-full border-[#FE3E01] text-[#FE3E01] hover:bg-[#FE3E01] rounded-lg hover:text-white">
-                View Details
-              </button>
+              <Link href={`/events/${event.id}`}>
+                <button className="btn btn-outline w-full border-[#FE3E01] text-[#FE3E01] hover:bg-[#FE3E01] rounded-lg hover:text-white">
+                  View Details
+                </button>
+              </Link>
             </div>
           </div>
         ))}

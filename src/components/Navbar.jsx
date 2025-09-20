@@ -32,7 +32,7 @@ export default function Navbar() {
               <Link href={"/"}>Home</Link>
             </li>
             <li>
-              <a>All Events</a>
+              <Link href={"/allEvents"}>All Events</Link>
             </li>
             <li>
               <Link href={"/services"}>Services</Link>
@@ -54,7 +54,7 @@ export default function Navbar() {
             <Link href={"/"}>Home</Link>
           </li>
           <li>
-            <a>All Events</a>
+            <Link href={"/allEvents"}>All Events</Link>
           </li>
           <li>
             <Link href={"/services"}>Services</Link>
